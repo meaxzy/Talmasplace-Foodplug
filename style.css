@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    padding: 30px 50px;
+    background: url(./image/foodPlug-Banner.jpg);
+    background-position: center;
+    height:550px;
+}
+.main-content h1{
+    font-size: 45px;
+    color: brown;
+}
+.main-content p{
+    padding: 20px 0;
+    line-height: 1.5;
+}
+.btn{
+    padding: 10px 20px;
+    border: none;
+}
+.btn-light{
+    border: 2px solid brown;
+    background: transparent;
+    color: brown;
+    margin: 0 10px 0 0;
+}
+.btn-main{
+    border: 2px solid brown;
+    background: brown;
+    color: white;
+}
+.btn-main:hover{
+    background: transparent;
+    border: 2px solid brown;
+    color: brown;
+}
+.statistics{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background: brown;
+    color: white;
+}
+.secondsection{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sectionsection-leftdiv{
+    height: 350px;
+    width: 525px;
+}
+.sectionsection-rightdiv{
+    height: 350px;
+    font-size: 20px;
+}
+.secondsection img{
+    border-radius: 30px;
+}
+.sectionsection-rightdiv h2{
+    color: brown;
+    border-left: 5px solid brown;
+    border-right: 5px solid brown;
+    background: rgba(238, 238, 238, 0.3);
+    padding: 10px;
+}
+.sectionsection-rightdiv p{
+    margin: 25px 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+.thirdsection{
+    display: flex;
+    height: 450px;
+    font-size: 20px;
+    padding-left: 40px;
+}
+.thirdsection-leftdiv h2{
+    color: brown;
+    border-right: 5px solid brown;
+    border-left: 5px solid brown;
+    background-color: rgba(238, 238, 238, 0.3);
+    padding: 10px;
+}
+.thirdsection-leftdiv{
+    height: 400px;
+    width: 620px;
+}
+.thirdsection-rightdiv{
+    margin-left: 100px;
+}
+.thirdsection-rightdiv img{
+    height: 350px;
+    width: 350px;
+}
+.thirdsection-leftdiv p{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 25px 0;
+    line-height: 1.5;
+}
+.thirdsection-leftdiv ul{
+    list-style: none;
+    margin: 30px 0;
+}
+.thirdsection-leftdiv ul{
+    font-size: 16px;
+    font-weight: 500;
+}
+.ri-check-line{
+    font-size: 30px;
+    margin-right: 10px;
+    color: brown;
+}
+.fourthsection{
+    background: url(./image/image1.jpg);
+    background-position: right center;
+    padding: 30px 14px;
+    height: 300px;
+}
+.fourthsection h2{
+    border-left: 5px solid brown;
+    border-right: 5px solid brown;
+    background: rgba(238, 238, 238, 0.3); 
+    text-align: center;
+    margin-bottom: 40px;
+    color: brown;
+}
+.fourthsection p{
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+}
+.explore-page h2{
+    text-align: center;
+    color: brown;
+    padding-top: 30px;
+}
+.explore-page p{
+    font-size: 16px;
+    padding: 15px 40px;
+}
+.explore-page-food{
+    display: flex;
+    justify-content: space-evenly;
+}
+.explore-page-food img{
+    border-radius: 10px;
+}
+.explore-page-food h2{
+    color: black;
+}
+.explore-page-food img{
+    width: 350px;
+    height: 250px;
+}
+.line{
+    height: 60px;
+    width: 95%;
+    margin: 10px auto;
+    background: brown;
+}
+.faq-container{
+    margin: 40px 40px 0;
+}
+.faq-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 260px;
+    
+}
+.faq{
+    width: 623px;
+}
+.faq-container h3{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.faq-container p{
+    margin-top: 10px;
+}
+.bottom-first{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px;
+    width: 95%;
+    margin: 0 auto;
+    background: url(./image/image1.jpg);
+    background-position: center bottom;
+    font-size: 20px;
+}
+.bottom-page h1{
+    text-align: center;
+    line-height: 1.5;
+    padding: 45px 0 15px;
+}
+.bottom-page p{
+    text-align: center;
+    font-size: 16px;
+}
+.inp{
+    padding: 20px;
+    border: 3px solid brown;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    background: brown;
+    color: white;
+    align-items: center;
+}
+.iconcontainer{
+    padding: 15px;
+    width: 200px;
+}
+.btn-contact{
+    background: transparent;
+    color: white;
+    border: 2px solid white; 
+    padding: 15px 20px;
+    font-size: 15px;
+}
+.btn2:hover{
+    background: rgba(50, 50, 50, 0.8)
+}
+.footer-icon{
+    margin: 0 5px;
+    font-size: 30px;
+}
+.flower{
+    color: brown;
+}
+.food-box h3{
+    margin: 20px 0px;
+}
